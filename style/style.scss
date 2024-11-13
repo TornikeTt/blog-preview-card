@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 384px;
+    height: 522px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+header {
+    width: 100%;
+
+    img {
+        display: block;
+        margin: 24px auto;
+    }
+}
+
+.info {
+    margin: 24px auto;
+    width: 336px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+        &:nth-child(1) {
+            width: 82px;
+            height: 29px;
+            background-color: #f4d04e;
+            color: #111111;
+            font-family: "Figtree", sans-serif;
+            font-weight: bold;
+            border-radius: 4px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:nth-child(2) {
+            color: #111111;
+            font-size: 16px;
+        }
+
+        &:nth-child(3) {
+            font-family: "Figtree", sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: #111111;
+            cursor: pointer;
+
+            &:hover {
+                color: #f4d04e;
+            }
+        }
+
+        &:nth-child(4) {
+            color: #6b6b6b;
+            font-size: 18px;
+        }
+    }
+}
+
+.person {
+    width: 336px;
+    margin: auto;
+
+    .person_container {
+        width: 129px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    p {
+        font-family: "Figtree", sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 410px) {
+    main {
+        width: 327px;
+        height: 501px;
+        overflow: hidden;
+    }
+
+    header {
+        img {
+            width: 279px;
+            height: 200px;
+        }
+    }
+
+    .info {
+        width: 279px;
+        height: 173px;
+
+        p {
+            &:nth-child(1) {
+                width: 73px;
+                height: 26px;
+                font-size: 14px;
+            }
+
+            &:nth-child(2) {
+                font-size: 14px;
+            }
+
+            &:nth-child(3) {
+                font-size: 20px;
+            }
+
+            &:nth-child(4) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .person {
+        width: 279px;
+        margin: auto;
+
+        .person_container {
+            width: 129px;
+            height: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        p {
+            font-family: "Figtree", sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+}
