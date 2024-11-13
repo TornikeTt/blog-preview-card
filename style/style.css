@@ -37,6 +37,16 @@ header img {
   flex-direction: column;
   justify-content: space-between;
 }
+.info h1 {
+  font-family: "Figtree", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #111111;
+  cursor: pointer;
+}
+.info h1:hover {
+  color: #f4d04e;
+}
 .info p:nth-child(1) {
   width: 82px;
   height: 29px;
@@ -52,16 +62,6 @@ header img {
 .info p:nth-child(2) {
   color: #111111;
   font-size: 16px;
-}
-.info p:nth-child(3) {
-  font-family: "Figtree", sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  color: #111111;
-  cursor: pointer;
-}
-.info p:nth-child(3):hover {
-  color: #f4d04e;
 }
 .info p:nth-child(4) {
   color: #6b6b6b;
@@ -99,6 +99,9 @@ header img {
     width: 279px;
     height: 173px;
   }
+  .info h1 {
+    font-size: 20px;
+  }
   .info p:nth-child(1) {
     width: 73px;
     height: 26px;
@@ -106,9 +109,6 @@ header img {
   }
   .info p:nth-child(2) {
     font-size: 14px;
-  }
-  .info p:nth-child(3) {
-    font-size: 20px;
   }
   .info p:nth-child(4) {
     font-size: 16px;

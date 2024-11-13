@@ -38,6 +38,18 @@ header {
     flex-direction: column;
     justify-content: space-between;
 
+    h1 {
+        font-family: "Figtree", sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: #111111;
+        cursor: pointer;
+
+        &:hover {
+            color: #f4d04e;
+        }
+    }
+
     p {
         &:nth-child(1) {
             width: 82px;
@@ -56,18 +68,6 @@ header {
         &:nth-child(2) {
             color: #111111;
             font-size: 16px;
-        }
-
-        &:nth-child(3) {
-            font-family: "Figtree", sans-serif;
-            font-weight: bold;
-            font-size: 24px;
-            color: #111111;
-            cursor: pointer;
-
-            &:hover {
-                color: #f4d04e;
-            }
         }
 
         &:nth-child(4) {
@@ -114,6 +114,10 @@ header {
         width: 279px;
         height: 173px;
 
+        h1 {
+            font-size: 20px;
+        }
+
         p {
             &:nth-child(1) {
                 width: 73px;
@@ -123,10 +127,6 @@ header {
 
             &:nth-child(2) {
                 font-size: 14px;
-            }
-
-            &:nth-child(3) {
-                font-size: 20px;
             }
 
             &:nth-child(4) {
