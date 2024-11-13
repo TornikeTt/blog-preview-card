@@ -18,7 +18,8 @@ main {
     height: 522px;
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 10px 10px black;
+    box-shadow: -2px -2px gray,
+        /* Small shadow on the top-right */ 10px 10px black; /* Large shadow on the bottom-right */
 }
 
 header {
